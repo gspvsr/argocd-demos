@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: chai-app
-        image: trainwithshubham/chai-devopsssss:v1.0.0
+        image: amitabhdevops/chai-devops:latest
         ports:
         - containerPort: 80
         env:

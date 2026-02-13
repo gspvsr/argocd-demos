@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: cli_approach/apache    # path of Apache app in `argocd-demos` repo
   destination:
-    server: https://172.31.227.107:6443 # Replace with your Cluster Url, To get run: `argocd cluster list`
+    server: https://5DDAE52FAB7D98F5D6828BBA9C2159BE.gr7.us-east-1.eks.amazonaws.com # Replace with your Cluster Url, To get run: `argocd cluster list`
     namespace: default
   syncPolicy:
     automated:
